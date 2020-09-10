@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#intro{
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.3);
+	padding-bottom: 50px;
+}
+.navbar{
+	background-color: transparent;
+	border: 2px solid #4f5951;
+
+	top: 5px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	
+}
+.logo img{
+	height: 100px;
+	width: 100px;
+
+}
+.menu{
+
+}
+.navbar-menu{
+	float: right;
+}
+.navbar-menu ul{
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+}
+.navbar-menu ul li{
+	list-style: none;
+	padding: 5px;
+	margin: 5px;
+	font-weight:;
+	font-size: 25px;
+	font-family: serif;
+
+}
+.navbar-menu ul li a{
+	color: #fd8469;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.navbar-menu ul li a:hover{
+	color: #fca28e;
+}
+.intro-img{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.intro-heading{
+	text-align: justify;
+}
+.intro-heading h2{
+	color: #8ce383;
+	text-transform: uppercase;
+	padding-left: 40px;
+	padding-top: 90px;
+}
+.intro-heading h1{
+	color: #d8a831;
+	text-transform: uppercase;
+	padding-left: 40px;
+}
+.intro-heading h1 span{
+	color: #27851b;
+	background: #fff;
+}
+.intro-heading h3{
+
+}
+#sarvices{
+	background: #835fa8;
+	height: 350px;
+}
+.sarvice-intro{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.sarvice-intro h2{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.sarvice-intro p{
+	max-width: 425px;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-align: justify;
+	color: #fff
+}
+.btn{
+	color: #fff;
+	background-color: #3dd2ae;
+	border-radius: 50px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    /* outline: 5px auto -webkit-focus-ring-color; */
+    /* outline-offset: -2px; */
+    color: #fff;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none; 
+}
+.sarvice-img{
+
+}
+.sarvice-img img {
+    height: 500px;
+    width: 400px;
+    padding: 35px 44px;
+    margin-left: 175px;
+    margin-top: -115px;
+}
+#my-blog{
+	padding: 40px 0;
+	background-color: #2b303b;
+
+}
+.my-blog{
+
+}
+.my-blog img{
+	height: 300px;
+	width: 500px;
+	padding: 20px;
+}
+.blog-intro{
+	font-weight: bold;
+	padding: 45px;
+}
+.blog-intro h2{
+	text-transform: uppercase;
+	text-align: justify;
+	color: #ffffec;
+}
+.blog-intro p{
+	text-align: justify;
+	text-transform: capitalize;
+	color: #8da5a2;
+}
+#about-me{
+	background-color: ;
+	
+}
+.about-intro{
+	text-align: center;
+}
+.about-intro img{
+	height: 400px;
+	width: 380px;
+	border-radius: 100%;
+	margin-top: 40px;
+}
+.about-intro h2{
+	font-weight: bold;
+	color:#fff ;
+	text-transform: uppercase;
+}
+.about-intro p{
+	font-weight: bold;
+	color: #8da5a2;
+	text-transform: capitalize; 
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.my-gallary{
+
+}
+.gallary-intro{
+
+}
+.gallary-intro h2{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+.image{
+	
+}
+.image img{
+	height: 400px;
+	width: 400px;
+	border: 30px solid #2b303b ;
+	padding: 0 auto;
+}
+.image a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+/*=====================
+Contact
+======================= */
+
+.fc-contact-form {
+  margin-bottom: 30px;
+}
+.fc-contact-form input[type="text"], .fc-contact-form input[type="email"], .fc-contact-form textarea {
+  background-color: transparent !important;
+  border: 1px solid #9da5b0;
+  border-radius: 0;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.fc-contact-form textarea {
+  min-height: 230px;
+}
+/*=====================
+Footer
+======================= */
+.footer-widget .footer-widget-title h4, .footer-widget .footer-widget-content p, .footer-widget-content li {
+  color: #f6f7fa;
+}
+.footer-widget-content ul {
+  list-style: outside none none;
+  padding-left: 0;
+}
+.footer-widget-content ul li, .footer-widget-content ul li a {
+  color: #9da5b0;
+  line-height: 28px;
+}
+.footer-widget {
+  margin-bottom: 30px;
+}
+
+.newsletter {
+  height: 50px;
+  padding: 5px 0;
+  position: relative;
+  width: 100%;
+}
+.newsletter input {
+  border-radius: 0 8px 8px 0;
+  box-sizing: border-box;
+  float: left;
+  height: 50px;
+  line-height: 18px;
+  margin-left: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn.fc-newsletter-btn {
+  background-color: #3dd2ae;
+  border-radius: 0 8px 8px 0;
+  color: #fff;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+   .fc-warn {
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 15px;
+}    
+
+ .copyright-area p {
+  color: #b3b3b3;
+  font-size: 13px;
+  text-align: center;
+}
+.copyright-area a {
+  color: #3dd2ae;
+}
+.copyright-area {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+.bg1{
+	background-color: #232831;
+}
+.bg4{
+	background-color: #2b303b;
+}
+.section-title{
+	text-align: center;
+	padding: 40px;
+}
+.section-title h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffec;
+}
+.section-title p{
+	color: #ffffec;
+	text-transform: capitalize;
+	font-weight: bold;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.social-icons{
+    
+     padding-left: 40px;
+    padding: 20px auto;
+    text-align: center;
+}
+.social-icons img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+			.intro-img{
+	padding-left: 0;
+	padding-top: 0;
+	
+}
+.sarvice-intro p {
+    max-width: 280px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: justify;
+    color: #fff;
+}
+.sarvice-img img {
+    height: 273px;
+    width: 284px;
+    padding: 35px 44px;
+    margin-left: 209px;
+    margin-top: -115px;
+}
+.my-blog img {
+    height: 290px;
+    width: 450px;
+    padding: 20px;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	.intro-heading h1 {
+    color: #d8a831;
+    text-transform: uppercase;
+    padding-left: 125px;
+    
+}
+	.intro-heading h2 {
+    color: #8ce383;
+    text-transform: uppercase;
+    padding-left: 123px;
+    padding-top: 86px;
+}
+
+}
